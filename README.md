@@ -84,4 +84,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - Icons by Font Awesome.
 - Fonts by Google Fonts.
 
-Made with ❤️ by Your Name
+Made with ❤️
