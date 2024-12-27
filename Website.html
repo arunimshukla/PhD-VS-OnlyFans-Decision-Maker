@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhD vs OnlyFans Decision Maker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Should You Continue Your PhD or Start OnlyFans?</h1>
+        <p class="subtitle">Answer the questions below to find out!</p>
+        <form id="decisionForm">
+            <div class="card">
+                <label><i class="fas fa-graduation-cap"></i> How passionate are you about your PhD research?</label>
+                <input type="number" id="q1" min="1" max="10" required>
+            </div>
+            <div class="card">
+                <label><i class="fas fa-camera"></i> How much do you enjoy creating content?</label>
+                <input type="number" id="q2" min="1" max="10" required>
+            </div>
+            <div class="card">
+                <label><i class="fas fa-money-bill-wave"></i> How important is financial independence to you right now?</label>
+                <input type="number" id="q3" min="1" max="10" required>
+            </div>
+            <div class="card">
+                <label><i class="fas fa-users"></i> How comfortable are you with public exposure and sharing personal content?</label>
+                <input type="number" id="q4" min="1" max="10" required>
+            </div>
+            <div class="card">
+                <label><i class="fas fa-book"></i> How much do you value academic recognition and a career in academia?</label>
+                <input type="number" id="q5" min="1" max="10" required>
+            </div>
+            <div class="card">
+                <label><i class="fas fa-star"></i> How confident are you in your ability to succeed on OnlyFans?</label>
+                <input type="number" id="q6" min="1" max="10" required>
+            </div>
+            <div class="card">
+                <label><i class="fas fa-laptop-code"></i> How much do you enjoy the technical challenges of Computer Science?</label>
+                <input type="number" id="q7" min="1" max="10" required>
+            </div>
+            <div class="card">
+                <label><i class="fas fa-balance-scale"></i> How important is work-life balance to you?</label>
+                <input type="number" id="q8" min="1" max="10" required>
+            </div>
+            <button type="submit"><i class="fas fa-calculator"></i> Get My Result</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2>Your Result:</h2>
+            <p id="outcome"></p>
+            <div id="iconResult">
+                <i id="phdIcon" class="fas fa-graduation-cap hidden"></i>
+                <i id="onlyFansIcon" class="fas fa-camera hidden"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
